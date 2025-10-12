@@ -89,7 +89,7 @@ async function connectToWA() {
 
       const up = `sudda-MD connected ✅\n\nPREFIX: ${prefix}`;
       await sudda.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
-        image: { url: `https://github.com/chalananimsar/suddaa-mt/blob/main/images/WhatsApp%20Image%202025-09-06%20at%205.32.14%20AM.jpeg?raw=true` },
+        image: { url: `` },
         caption: up
       });
 
