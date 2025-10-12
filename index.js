@@ -27,7 +27,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 const prefix = '.';
-const ownerNumber = ['94776121326'];
+const ownerNumber = ['94779890822'];
 const credsPath = path.join(__dirname, '/auth_info_baileys/creds.json');
 
 async function ensureSessionFile() {
@@ -89,7 +89,7 @@ async function connectToWA() {
 
       const up = `sudda-MD connected ✅\n\nPREFIX: ${prefix}`;
       await sudda.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
-        image: { url: `` },
+        image: { url: `https://github.com/chalananimsar/suddaa-mt/blob/main/images/WhatsApp%20Image%202025-09-06%20at%205.32.14%20AM.jpeg?raw=true` },
         caption: up
       });
 
