@@ -15,7 +15,7 @@
     "browser-id3-writer": "^6.3.1",
     "cheerio": "^1.1.2",
     "express": "5.1.0",
-    "ffmpeg": "^4.1.0",
+    "ffmpeg": "^0.0.4",
     "ffmpeg-static": "^5.2.0",
     "file_size_url": "^1.0.6",
     "fluent-ffmpeg": "^2.1.27",
